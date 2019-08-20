@@ -45,10 +45,10 @@ window.onload = function() {
 
 $(window).on('scroll', function () {
     if ($(window).scrollTop() > 0) { // Set position from top to add class
-        $('.navbar').addClass("scrolling-bg");
+        $('.web-nav').addClass("scrolling-bg");
 
     }
     else {
-        $('.navbar').removeClass("scrolling-bg");
+        $('.web-nav').removeClass("scrolling-bg");
     }
 });
