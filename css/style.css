@@ -104,9 +104,11 @@ body {
 }
 
 
-ul.mob-nav li{
-display:inline;}
-
+@media only screen and (max-width: 768px) {
+    .web-nav {
+        display:none;
+    }
+}
 
 
 
